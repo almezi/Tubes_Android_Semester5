@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="asus.example.com.tubes_android_semester5.lapor"
-    android:orientation="vertical">
-    <EditText
+    android:orientation="vertical"
+    tools:context="asus.example.com.tubes_android_semester5.putar_media">
+    
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Laporan"/>
-    <EditText
+        android:text="Putar Audio"
+        android:id="@+id/btn_putar_audio"
+        android:onClick="btn_putar_audio"/>
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="email"/>
-
-
-
+        android:text="Putar Video"
+        android:id="@+id/btn_putar_video"/>
 
 </LinearLayout>

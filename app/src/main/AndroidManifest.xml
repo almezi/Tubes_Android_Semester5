@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".menu" />
-        <activity android:name=".lapor"></activity>
+        <activity android:name=".lapor" />
+        <activity android:name=".Notif_dialog_alert" />
+        <activity android:name=".putar_media"></activity>
     </application>
 
 </manifest>

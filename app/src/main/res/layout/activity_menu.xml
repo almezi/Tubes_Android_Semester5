@@ -21,8 +21,19 @@
         android:layout_height="wrap_content"
         android:text="lokasi kami"/>
     <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="laporan masuk"/>
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="laporan masuk"/>
+        android:text="notifikasi, dialog, alert"
+        android:onClick="btn_nda"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Putar Media"
+        android:onClick="btn_putar_media"/>
 
 </LinearLayout>

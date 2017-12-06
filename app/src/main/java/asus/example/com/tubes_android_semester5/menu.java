@@ -17,4 +17,14 @@ public class menu extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+    public void btn_nda(View view){
+        Intent intent = new Intent(this,Notif_dialog_alert.class);
+        startActivity(intent);
+        finish();
+    }
+    public void btn_putar_media(View view){
+        Intent intent = new Intent(this,putar_media.class);
+        startActivity(intent);
+        finish();
+    }
 }

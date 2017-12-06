@@ -4,18 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="asus.example.com.tubes_android_semester5.lapor"
-    android:orientation="vertical">
-    <EditText
+    android:orientation="vertical"
+    tools:context="asus.example.com.tubes_android_semester5.Notif_dialog_alert">
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Laporan"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="email"/>
-
-
-
+        android:text="Dialog"
+        android:id="@+id/btn_dialog"
+        android:onClick="btn_dialog"/>
 
 </LinearLayout>
