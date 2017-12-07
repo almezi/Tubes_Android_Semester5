@@ -19,7 +19,8 @@
         <activity android:name=".menu" />
         <activity android:name=".lapor" />
         <activity android:name=".Notif_dialog_alert" />
-        <activity android:name=".putar_media"></activity>
+        <activity android:name=".putar_media" />
+        <activity android:name=".putar_audio"></activity>
     </application>
 
 </manifest>
